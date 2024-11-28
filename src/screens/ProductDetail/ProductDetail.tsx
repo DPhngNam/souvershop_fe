@@ -91,14 +91,14 @@ function ProductDetail() {
 
   const [ratingvValue, setRatingValue] = React.useState<number | null>(2);
   const [color, setColor] = React.useState<string>("");
-  const [quantity, setQuantity] = React.useState<number>(1);
+  const [quantity] = React.useState<number>(1);
   const [tabIndex, setTabIndex] = useState(0);
 
   const handleChange = (event: SelectChangeEvent) => {
     setColor(event.target.value as string);
   };
 
-  const handleTabChange = (event: React.ChangeEvent<{}>, newValue: number) => {
+  const handleTabChange = (_event: React.ChangeEvent<{}>, newValue: number) => {
     setTabIndex(newValue);
   };
 
@@ -133,7 +133,7 @@ function ProductDetail() {
           <Rating
             name="controlled"
             value={ratingvValue}
-            onChange={(event, newvalue) => {
+            onChange={(_event, newvalue) => {
               setRatingValue(newvalue);
             }}
           />
