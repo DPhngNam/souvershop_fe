@@ -1,7 +1,6 @@
-import { Button, IconButton } from "@mui/material";
-import React from "react";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
+import { IconButton } from "@mui/material";
 
 export default function ButtonGroup({ value }: { value: number }) {
   return (

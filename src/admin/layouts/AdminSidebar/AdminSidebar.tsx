@@ -7,20 +7,18 @@ import {
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
-  SidebarMenuItem,
-  useSidebar,
+  SidebarMenuItem
 } from "@/components/ui/sidebar";
 
 import {
-  House,
   ChartArea,
-  PackagePlus,
   CircleUserRound,
   Database,
-  Settings,
+  House,
   LogOut,
+  PackagePlus,
+  Settings,
 } from "lucide-react";
-import React from "react";
 //menu items
 const items = [
   {

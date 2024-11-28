@@ -1,6 +1,5 @@
 import ReviewFrame from '@/components/ReviewFrame/ReviewFrame'
 import { Button } from '@mui/material'
-import React from 'react'
 
 export default function RatingReview() {
   return (

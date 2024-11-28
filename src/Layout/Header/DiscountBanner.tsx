@@ -5,7 +5,7 @@ export default function DiscountBanner() {
         <p className="font-normal m-0">
           Đăng ký và nhận giảm giá 20% cho đơn hàng đầu tiên của bạn.
         </p>
-        <button className="font-bold text-white underline font-normal">
+        <button className="font-bold text-white underline">
           Đăng ký ngay
         </button>
       </div>

@@ -1,12 +1,8 @@
 import { Button } from "@mui/material";
-import { useNavigate } from "react-router-dom";
 import MainBanner from "../../assets/TranhDongHo.png";
-import { Footer } from "../../components";
-import Header from "../../Layout/Header/Header";
 import ProductSlider from "../../components/ProductSlider";
 
 const Home = () => {
-  const navigate = useNavigate();
   const data = [
     {
       id: 1,

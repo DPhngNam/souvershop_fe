@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import ImageSlider from "./ImageSlider";
+import ProductSlider from "@/components/ProductSlider";
 import {
+  Box,
   Button,
   FormControl,
   InputLabel,
@@ -8,14 +8,14 @@ import {
   Rating,
   Select,
   SelectChangeEvent,
-  Tabs,
   Tab,
-  Box,
+  Tabs,
   Typography,
 } from "@mui/material";
+import React, { useState } from "react";
 import ButtonGroup from "./ButtonGroup";
+import ImageSlider from "./ImageSlider";
 import RatingReview from "./RatingReview";
-import ProductSlider from "@/components/ProductSlider";
 
 interface TabPanelProps {
   children?: React.ReactNode;

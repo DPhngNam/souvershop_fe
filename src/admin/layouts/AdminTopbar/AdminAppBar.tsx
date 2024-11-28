@@ -1,7 +1,6 @@
 import { useSidebar } from "@/components/ui/sidebar";
 import { IconButton, TextField } from "@mui/material";
-import { Search, Bell, User, MenuIcon } from "lucide-react";
-import React from "react";
+import { Bell, MenuIcon, Search, User } from "lucide-react";
 
 export default function AdminAppBar() {
   const { toggleSidebar } = useSidebar();
